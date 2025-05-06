@@ -31,5 +31,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/app-service:latest
-            ghcr.io/${{ github.repository_owner }}/app-service:${{ steps.tag.outputs.version }}
+            ghcr.io/${{ github.repository_owner }}/app-frontend:latest
+            ghcr.io/${{ github.repository_owner }}/app-frontend:${{ steps.tag.outputs.version }}
