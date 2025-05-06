@@ -1,7 +1,7 @@
 FROM nginx
 
-ARG env=dev
+ARG ENV=prod
 
-COPY nginx.${env}.conf /etc/nginx/nginx.conf
+COPY nginx.${ENV}.conf /etc/nginx/nginx.conf
 
 COPY html /usr/share/nginx/html
