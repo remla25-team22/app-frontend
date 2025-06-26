@@ -1,3 +1,5 @@
+# MOVED TO https://github.com/remla25-team22/app-service/tree/main/app-service/wwwroot
+
 # App Frontend
 
 This repository contains the frontend for the Restaurant Sentiment Analysis application. It provides a simple user interface for submitting restaurant reviews and visualizing sentiment predictions.
